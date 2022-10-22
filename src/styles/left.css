@@ -1,0 +1,94 @@
+.leftSide{
+    margin-top: 80px;
+    width: 350px;
+    background-color: white;
+    height: 450px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.list-item{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+}
+  
+.selected{
+    background-color: #1b68b3;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+  
+.selected .email{
+    color: rgb(228, 223, 223);
+}
+  
+ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+  
+li{
+    list-style: none;
+}
+  
+li:hover{
+    background-color: #e8e8e8;
+}
+  
+.user-details{
+    display: flex;
+    flex-direction: column;
+}
+  
+.avatar img{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+  
+.email{
+    font-size: x-small;
+    color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+    .leftSide{
+        width: 65px;
+        height: 100vh;
+        margin-top: 0px;
+        background-color: white;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+    .user-details{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .leftSide{
+        width: 75px;
+        height: 100vh;
+        margin-top: 0px;
+        background-color: white;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .leftSide{
+        width: 100px;
+        height: 100vh;
+        margin-top: 0px;
+        background-color: white;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+}
