@@ -8,3 +8,5 @@ Technologies for this app:
 2. Context Api
 3. Axios
 4. Css
+
+App Demo: https://superlative-starburst-fbc586.netlify.app/
